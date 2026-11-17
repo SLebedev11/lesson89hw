@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+
+</head>
+<body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-secondary">
+        <div class="container gap-lg-5">
+          <a class="navbar-brand" href="#">Brew & Bean</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse py-2 py-lg-0"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav me-auto mb-4 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Головна</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Меню</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Про Нас</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Контакти</a>
+              </li>
+            </ul>
+            <a href="#" class="btn btn-dark">Забронювати</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="py-5">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <span class="badge text-bg-dark mb-3"
+                >Кав'ярня у центрі міста</span
+              >
+              <h1 class="display-4 fw-bold mb-3">
+                Кава, яка робить день кращим
+              </h1>
+              <p class="lead">
+                Свіжообсмажена кава, домашня випічка та затишна атмосфера щодня.
+              </p>
+              <div class="d-flex gap-3">
+                <a href="#menu" class="btn btn-dark">Переглянути меню</a>
+                <a href="#contacts" class="btn btn-outline-secondary"
+                  >Знайти нас</a
+                >
+              </div>
+            </div>
+            <div class="col-lg-6 mt-3">
+              <img
+                src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085"
+                class="img-fluid rounded"
+                alt="Чашка кави"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      
+        <section class="py-5 bg-light-subtle mb-5">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="fw-bold">Наше меню</h2>
+                    <p class="text-secondary">Обирайте улюблені напої та десерти</p>
+                </div>
+                <ul class="row">
+                    <li class="col-lg-4">
+                        <div class="card">
+                            <div class="ratio ratio-1x1">
+                            <img
+                                src="https://images.unsplash.com/photo-1510707577719-ae7c14805e3a"
+                                class="card-img-top object-fit-cover"
+                                alt="Еспресо"
+                            >
+                            </div>
+                            <div class="card-body d-flex flex-column gap-2">
+                                <h3 class="card-title">Еспресо</h3>
+                                <p class="card-text">Класичний насичений еспресо з ароматною пінкою.</p>
+                                <span class="d-block fw-semibold card-text ">65 грн</span>
+                                <button class="btn btn-dark">Замовити</button>
+                            </div>
+                        </div>
+                        
+                    </li>
+                    <li class="col-lg-4">
+                        <div class="card h-100">
+                        <div class="ratio ratio-1x1">
+                        <img
+                            src="https://images.unsplash.com/photo-1534778101976-62847782c213"
+                            class="card-img-top object-fit-cover"
+                            alt="Капучино"
+                            
+                        >
+                        </div>
+                        <div class="card-body d-flex flex-column gap-2">
+                                <h3 class="card-title">Еспресо</h3>
+                                <p class="card-text">Ароматна кава еспресо з ніжною молочною пінкою та насиченим смаком.</p>
+                                <span class="d-block fw-semibold card-text ">75 грн</span>
+                                <button class="btn btn-dark">Замовити</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-lg-4">
+                        <div class="card h-100">
+                        <div class="ratio ratio-1x1">
+                            <img
+                            src="https://images.unsplash.com/photo-1565958011703-44f9829ba187"
+                            class="card-img-top object-fit-cover"
+                            alt="Чізкейк"
+                        >
+                        </div>
+                        <div class="card-body d-flex flex-column gap-2">
+                                <h3 class="card-title">Чізкейк з полуницею</h3>
+                                <p class="card-text">Ніжний вершковий чізкейк із соковитою полуницею та легким ягідним соусом.</p>
+                                <span class="d-block fw-semibold card-text ">165 грн</span>
+                                <button class="btn btn-dark">Замовити</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-lg-4">
+                        <div class="card h-100">
+                        <div class="ratio ratio-1x1">
+                            <img
+                            src="./tiramisu.jpg"
+                            class="card-img-top object-fit-cover"
+                            alt="Тірамісу"
+                        >
+                        </div>
+                        <div class="card-body d-flex flex-column gap-2">
+                                <h3 class="card-title">Тірамісу</h3>
+                                <p class="card-text">Ніжний десерт із просоченим кавою бісквітом, кремом маскарпоне та легким какао.</p>
+                                <span class="d-block fw-semibold card-text ">155 грн</span>
+                                <button class="btn btn-dark">Замовити</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-lg-4">
+                        <div class="card h-100">
+                        <div class="ratio ratio-1x1">
+                            <img
+                            src="./late.jpg"
+                            class="card-img-top object-fit-cover"
+                            alt="Лате"
+                        >
+                        </div>
+                        <div class="card-body d-flex flex-column gap-2">
+                                <h3 class="card-title">Лате</h3>
+                                <p class="card-text">М’яка ароматна кава еспресо з гарячим молоком та ніжною молочною пінкою.</p>
+                                <span class="d-block fw-semibold card-text ">85 грн</span>
+                                <button class="btn btn-dark">Замовити</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-lg-4">
+                        <div class="card h-100">
+                        <div class="ratio ratio-1x1">
+                            <img
+                            src="./croissant.jpg"
+                            class="card-img-top object-fit-cover"
+                            alt="Круасан"
+                        >
+                        </div>
+                        <div class="card-body d-flex flex-column gap-2">
+                                <h3 class="card-title">Круасан з шоколадом</h3>
+                                <p class="card-text">Хрусткий французький круасан із ніжною шоколадною начинкою.</p>
+                                <span class="d-block fw-semibold card-text ">95 грн</span>
+                                <button class="btn btn-dark">Замовити</button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <img
+                            src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb"
+                            class="img-fluid rounded"
+                            alt="Інтер'єр кав'ярні"
+                        >
+                    </div>
+                    <div class="col-lg-6">
+                        <span class="badge text-bg-dark mb-3">5 років з вами</span>
+                        <h2 class="fw-bold mb-3">Ми любимо хорошу каву</h2>
+                        <p class="">Ми обсмажуємо зерно невеликими партіями, 
+                            щоб кожна чашка була
+                            свіжою та ароматною.
+                        </p>
+                        <p>
+                            У нашій кав'ярні можна попрацювати, зустрітися з 
+                            друзями або
+                            просто насолодитися улюбленим напоєм.
+                        </p>
+                        <a href="#contacts" class="btn-primary">Дізнатися більше</a>
+
+                
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5">
+    <div class="container">
+        <h2 class="text-center fw-bold mb-5">Часті запитання</h2>
+        <div class="accordion" id="faq">
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Чи можна взяти напої з собою?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#faq">
+                    <div class="accordion-body">
+                        Так, усі напої можна замовити з собою
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Чи є у вас рослинне молоко
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faq">
+                    <div class="accordion-body">
+                        Так, у нас є мигдальне, вівсяне та кокосове молоко
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Чи можна забронювати столик?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faq">
+                    <div class="accordion-body">
+                        Так, можна
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Який графік роботи кафе?
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#faq">
+                    <div class="accordion-body">
+                        Ми працюємо щодня з 9:00 до 22:00.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        Де знаходиться ваше кафе?
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#faq">
+                    <div class="accordion-body">
+                        Ми знаходимося в зручному місці в центрі міста. Точну адресу можна переглянути в розділі «Контакти».
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        Чи можна замовити святковий торт?
+                    </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#faq">
+                    <div class="accordion-body">
+                        Так, ми приймаємо попередні замовлення на десерти для свят та особливих подій.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<sec class="">
+
+</sec>
+
+    </main>
+
+
+    <footer class="container d-flex bg-body-tertiary justify-content-around ">
+        <a href="#" class="navbar-brand text-white">
+            <span class="fs-1">☕</span>
+            <span class="fs-3 fw-bold">Coffee House</span>
+        </a>
+
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav flex-column">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Головна</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Меню</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Часті запитання</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Контакти</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+            </nav>
+
+                <div class="col-md-4 mb-4">
+                <h5>Контакти</h5>
+
+                <p class="mb-2">📞 +380 99 123 45 67</p>
+                <p class="mb-2">✉️ coffee@gmail.com</p>
+                <p class="mb-0">📍 вул. Центральна, 10</p>
+            </div>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+</body>
+</html>
